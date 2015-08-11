@@ -14,7 +14,7 @@ def plot_cp(x, cp, x_airfoil, y_airfoil, use_TeX=False):
     #orange = [0.992, 0.596, 0.118, 1]
     #red = [0.988, 0.047, 0.082, 1]
     
-    plt.figure(num='none', figsize=(6, 6), dpi=100)
+    plt.figure(num='Pressure Distribution', figsize=(6, 6), dpi=100)
     
     if use_TeX:
         plt.rc('font', **{'family': 'serif', 'serif': ['Palatino']})
